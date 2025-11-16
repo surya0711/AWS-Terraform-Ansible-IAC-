@@ -35,7 +35,7 @@ resource "aws_security_group" "allow_ssh" {
 
 resource "aws_key_pair" "key_pair" {
   key_name   = "app"
-  public_key = file("C:\Keys\app") 
+  public_key = file("home/ubuntu/.ssh/app.pub") 
 }
 
 resource "aws_instance" "ubuntu_instance" {
