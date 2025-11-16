@@ -1,7 +1,3 @@
-Creating a Hashnode blog for your GitHub repository is a great way to share your project with the community. Below is a suggested structure and content for your blog post. You can customize it further based on your preferences.
-
----
-
 # Automating AWS Infrastructure with Terraform and Ansible: A Step-by-Step Guide
 
 In today's world of cloud computing, automating infrastructure deployment and management is crucial for efficiency, scalability, and reliability. In this blog post, I'll walk you through my GitHub repository, [AWS-Terraform-Ansible-IaC](https://github.com/surya0711/AWS-Terraform-Ansible-IAC-.git), which demonstrates how to use **Terraform** and **Ansible** together to automate AWS infrastructure deployment.
