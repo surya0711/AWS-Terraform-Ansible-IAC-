@@ -91,15 +91,6 @@ This project can be adapted for various use cases, such as:
 
 ---
 
-## Contributions Welcome!
-
-If you find this project useful, feel free to contribute! You can:
-- Open issues for bugs or feature requests.
-- Submit pull requests with improvements.
-- Share your feedback or suggestions in the comments.
-
-
----
 
 ## Conclusion
 
