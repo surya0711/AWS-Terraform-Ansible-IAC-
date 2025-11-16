@@ -11,7 +11,7 @@ resource "aws_vpc" "main" {
 resource "aws_subnet" "subnet" {
   vpc_id = aws_vpc.main.id
   cidr_block = "10.0.1.0/24"
-  availability_zone = "ap-south-1a"
+  availability_zone = "us-east-1a"
   map_public_ip_on_launch = true
 }
 
@@ -34,8 +34,8 @@ resource "aws_security_group" "allow_ssh" {
 }
 
 resource "aws_key_pair" "key_pair" {
-  key_name   = "app"
-  public_key = file("home/ubuntu/.ssh/app.pub") 
+  key_name   = "my-key-pair"
+  public_key = file("home/ubuntu/.ssh/my_aws_key.pub") 
 }
 
 resource "aws_instance" "ubuntu_instance" {
