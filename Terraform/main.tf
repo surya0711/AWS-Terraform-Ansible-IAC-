@@ -1,5 +1,5 @@
 provider "aws" {
-region = "ap-south-1" 
+region = "us-east-1" 
 }
 
 resource "aws_vpc" "main" {
@@ -34,7 +34,7 @@ resource "aws_security_group" "allow_ssh" {
 }
 
 resource "aws_key_pair" "key_pair" {
-  key_name   = "my-key-pair"
+  key_name   = "app"
   public_key = file("home/ubuntu/.ssh/my_aws_key.pub") 
 }
 
